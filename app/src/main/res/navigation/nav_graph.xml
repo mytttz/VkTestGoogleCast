@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/castFragment">
+
+    <fragment
+        android:id="@+id/castFragment"
+        android:name="com.example.vktestgooglecast.CastFragment"
+        android:label="Cast Video"
+        tools:layout="@layout/fragment_cast" />
+</navigation>
